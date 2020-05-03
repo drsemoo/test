@@ -5,7 +5,7 @@ from django.views.generic import CreateView ,ListView
 # Create your views here.
 def home(request):
     return render (request ,'www/home.html')
-
+##########################################
 #this is testing to see what will happen
 class Tea (CreateView):
     model = MyModel
