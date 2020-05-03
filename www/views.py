@@ -17,3 +17,4 @@ class TeaList(ListView):
     template_name = 'www/listing.html'
     context_object_name = 'fow'
     ordering = '-content'
+##########################################
