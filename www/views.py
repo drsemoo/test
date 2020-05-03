@@ -11,7 +11,7 @@ def home(request):
 class Tea (CreateView):
     model = MyModel
     fields = ['content']
-
+#######################################
 class TeaList(ListView):
     model = MyModel
     template_name = 'www/listing.html'
